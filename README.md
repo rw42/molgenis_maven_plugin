@@ -7,6 +7,7 @@ Goals overview
 --------------
 
 molgenis:clean deletes everything in the generated folder to ensure a clean generation process
+
 molgenis:generate starts the molgenis generator using your configuration
 
 Usage
