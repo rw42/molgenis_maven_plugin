@@ -7,7 +7,6 @@ Goals overview
 --------------
 
 molgenis:clean deletes everything in the generated folder to ensure a clean generation process
-
 molgenis:generate starts the molgenis generator using your configuration
 
 Usage
@@ -26,6 +25,6 @@ Add the following lines to your pom.xml
 
 Upon changes in your model you can start the generator before compilation
 
-	mvn clean molgenis:generate compile
+	mvn clean molgenis:clean molgenis:generate compile
 
 Tadaa!
